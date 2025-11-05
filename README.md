@@ -36,16 +36,22 @@ Originally developed in high school to replace manual paper submissions and Exce
 
 Once setup is complete, start the app with:
 
+### local test
 ```bash
-python app.py
+gunicorn app:app --bind 0.0.0.0:5000 --workers 3
 ```
 
-## Usage
+### production
+```bash
+gunicorn app:app --bind 0.0.0.0:$PORT --workers 3
+```
+
+## Usage(local test urls)
 student portal:
-👉 `http://127.0.0.1:5000`
+👉 `http://{doamin}:{prot}`
 
 admin pannel:
-👉 `http://127.0.0.1:5000/admin`
+👉 `http://{doamin}:{prot}/admin`
 
 username: upadmin
 password: upadmin123
