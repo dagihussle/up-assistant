@@ -38,8 +38,17 @@ Once setup is complete, start the app with:
 python app.py
 ```
 
-Then open your browser and go to:
+## Usage
+student portal:
 👉 `http://127.0.0.1:5000`
+
+admin pannel:
+👉 `http://127.0.0.1:5000/admin`
+
+username: upadmin
+password: upadmin123
+
+
 
 ## 💡 About
 
