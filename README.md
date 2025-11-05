@@ -48,10 +48,10 @@ gunicorn app:app --bind 0.0.0.0:$PORT --workers 3
 
 ## Usage(local test urls)
 student portal:
-👉 `http://{doamin}:{prot}`
+👉 `http://{domain}:{prot}`
 
 admin pannel:
-👉 `http://{doamin}:{prot}/admin`
+👉 `http://{domain}:{prot}/admin`
 
 username: upadmin
 password: upadmin123
